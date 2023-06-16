@@ -3,6 +3,7 @@ import React from "react";
 import Help from "./Help";
 import Skills from "./Skills";
 import About from "./About";
+import Projects from "./Projects";
 
 const Commands = new Map<
   string,
@@ -30,7 +31,7 @@ const Commands = new Map<
     "projects",
     {
       description: "some stuff i built",
-      output: () => <></>,
+      output: Projects,
     },
   ],
   [

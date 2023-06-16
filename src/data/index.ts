@@ -32,7 +32,7 @@ export default {
     },
   ],
   socials: [
-    { name: "email", value: "txreqbtw@duck.com", type: "email", icon: "え" },
+    { name: "email", value: "txreqb2w@duck.com", type: "email", icon: "え" },
     { name: "github", value: "https://github.com/Txreq", icon: "ぐ" },
     {
       name: "discord",
