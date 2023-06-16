@@ -11,7 +11,7 @@ This is a minimalist and sleek open source portfolio built with Vite and inspire
 
 ## Demo
 
-Check out the live demo of the txrem at [https://txreq.vercel.com](https://example.com/portfolio-demo).
+Check out the live demo of the txrem at [https://txrem.vercel.com](https://example.com/portfolio-demo).
 
 ## Installation
 
