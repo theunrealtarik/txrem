@@ -2,8 +2,6 @@ import { getProjects } from "@/lib/sanity";
 import { useQuery } from "@tanstack/react-query";
 import type { FC } from "react";
 
-import { BsGithub } from "react-icons/bs";
-
 const Projects: FC = ({}) => {
   const projects = useQuery<Project[]>({
     queryFn: getProjects,
