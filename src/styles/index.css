@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-slider-thumb {
+  background-color: theme("colors.zinc.600");
+}
+
+.command-container {
+  padding: theme("padding.4");
+  @apply space-y-2;
+}
+
+body {
+  background-color: theme("colors.zinc.900");
+  color: theme("colors.gray.200");
+  font-family: theme("fontFamily.mono");
+}
+
+@layer components {
+  .glow-white {
+    text-shadow: 0 0 0.2rem white;
+  }
+
+  .glow-sky {
+    text-shadow: 0 0 0.2rem theme("colors.sky.300");
+  }
+
+  .glow-green {
+    text-shadow: 0 0 0.2rem theme("colors.green.300");
+  }
+
+  .glow-pink {
+    text-shadow: 0 0 0.2rem theme("colors.pink.300");
+  }
+}
