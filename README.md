@@ -1,6 +1,6 @@
 # txrem
 
-This is a minimalist and sleek open source portfolio built with Vite and inspired by terminal interfaces. It provides a command-line-like experience to showcase your projects and skills.
+This is a minimalist and sleek open-source portfolio built with Vite and inspired by terminal interfaces. It provides a command-line-like experience to showcase your projects and skills.
 
 ## Features
 
